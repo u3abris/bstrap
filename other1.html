@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- This is where you would insert your own stylesheet if needed -->
+<!-- Or we could use an internal style sheet -->
+<style>
+  .bg1 { background-color:lavender; }
+  .bg2 { background-color:lavenderblush; }
+  .bgpink { background-color:pink; }
+  .bgbrown { background-color:brown; color: white; }
+</style>
+</head>
+<body>
+<div class="container">
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">U3A Class</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href=".">Home</a></li>
+      <li class="active"><a href="page1.html">Page 1</a></li>
+      <li><a href="page2.html">Page 2</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Other
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="other1.html">Other Topics 1</a></li>
+          <li><a href="other2.html">Other Topics 2</a></li>
+          <li><a href="other3.html">Other Topics 3</a></li>
+        </ul>
+    </ul>
+  </div>
+</nav>
+  
+<div class="jumbotron text-center bgbrown">
+  <h1>Bootstrap Test Other Page 1</h1>
+  <p>This is Page 1</p> 
+</div>
+  
+
+<!-- Three column row. Note how background-color classes bg1, bg2 and bgpink are used-->  
+  <div class="row">
+    <div class="col-sm-6 bg1">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+
+    <div class="col-sm-6 bg2">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+     
+  <!-- End of Row -->
+  </div>
+
+ <!-- Now a full width, single column row -->
+ <div class="row bgpink" style="padding: 50px;">
+   <p> This is a full width row.</p>
+ </div>
+
+ <!-- end container -->
+ </div>
+
+</body>
+</html>
