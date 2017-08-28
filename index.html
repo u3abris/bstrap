@@ -13,8 +13,6 @@
 <!-- This is where you would insert your own stylesheet if needed -->
 <!-- Or we could use an internal style sheet -->
 <style>
-  html { position: relative; min-height: 100%; }
-  body { margin-bottom: 60px; }
   .bg1 { background-color:lavender; }
   .bg2 { background-color:lavenderblush; }
   .bgpink { background-color:MistyRose; }
@@ -106,8 +104,19 @@
  </div>
 
 <!-- footer -->
-<footer>
-  <div class="footer text-center bgdarkgrey">Copyright 2017</div>
-</footer>     
+
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>  
 </body>
 </html>
